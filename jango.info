@@ -1,0 +1,53 @@
+name = Jango
+description = Prototyping theme
+screenshot = assets/images/screenshot.png
+core = 7.x
+engine = phptemplate
+base theme = fett
+
+
+;-------------- F E A T U R E S -------------
+features[] = logo
+features[] = favicon
+features[] = name
+features[] = slogan
+; features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = main_menu
+features[] = secondary_menu
+
+
+;-------------- R E G I O N S -------------
+regions[search_panel]     = Search Panel
+regions[header]           = Header
+regions[navigation]       = Navigation
+regions[featured_top]     = Featured Top
+regions[content_top]      = Content Top
+regions[content]          = Content
+regions[content_bottom]   = Content Bottom
+regions[sidebar_first]    = Left Sidebar
+regions[sidebar_second]   = Right Sidebar
+regions[featured_bottom]  = Featured Bottom
+regions[footer]           = Footer
+regions[offcanvas]        = Off Canvas
+
+
+;-------------- S C S S -------------
+
+; Components
+stylesheets[all][] = assets/scss/components/_prototype.scss
+stylesheets[all][] = assets/scss/components/_off-canvas.scss
+
+
+;-------------- S C R I P T -------------
+scripts[] = assets/js/classie.js
+scripts[] = assets/js/sidebarEffects.js
+scripts[] = assets/js/jango.js
+
+
+;-------------- S E T T I N G S -------------
+settings[fett_css_onefile] = 1
+settings[fett_js_footer] = 1
+settings[fett_js_onefile] = 1
+settings[fett_html_tags] = 1
